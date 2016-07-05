@@ -28,7 +28,6 @@
 # *.out
 # *.app
 
-*
 !*.cc
 !makefile
 !Makefile
