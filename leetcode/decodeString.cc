@@ -2,6 +2,7 @@
 class Solution {
     /*
      * one-pass solution with an index reference.
+     * 3[a2[c]] -> accaccacc
      *
      */
   public:
@@ -17,7 +18,7 @@ class Solution {
                     n = n * 10 + s[i++] - '0';
 
                 i++;  // skip '['
-                string p = decodeString(s, i);  // get pure alphabet string
+                string p = decodeString(s, i);
                 i++;  // skip ']'
 
                 while (n > 0) {
